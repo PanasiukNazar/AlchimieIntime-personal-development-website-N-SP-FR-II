@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>AlchimieIntime</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+            content="Plateforme d'apprentissage pour le développement personnel"
+            name="keywords"
+        />
+        <meta
+            content="Découvrez des cours pratiques et des conseils d’experts pour améliorer vos compétences en développement personnel."
+            name="description"
+        />
+
+        <!-- Favicon -->
+        <link href="img/favicon.png" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Font Awesome -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Navbar Start -->
+        <div class="container-fluid">
+            <div class="row border-top px-xl-5">
+                <div class="col-lg-4 d-none d-lg-block">
+                    <a href="index.html" class="text-decoration-none">
+                        <h1 style="margin-top: 10px !important" class="m-0">
+                            <span class="text-primary">A</span>lchimieIntime
+                        </h1>
+                    </a>
+                </div>
+                <div class="col-lg-8">
+                    <nav
+                        class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0"
+                    >
+                        <a
+                            href="index.html"
+                            class="text-decoration-none d-block d-lg-none"
+                        >
+                            <h1 class="m-0">
+                                <span class="text-primary">A</span>lchimieIntime
+                            </h1>
+                        </a>
+                        <button
+                            type="button"
+                            class="navbar-toggler"
+                            data-toggle="collapse"
+                            data-target="#navbarCollapse"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div
+                            class="collapse navbar-collapse justify-content-between"
+                            id="navbarCollapse"
+                        >
+                            <div class="navbar-nav py-0">
+                                <a
+                                    href="index.html"
+                                    class="nav-item nav-link active"
+                                    >Accueil</a
+                                >
+                                <a
+                                    href="index.html#about"
+                                    class="nav-item nav-link"
+                                    >À propos</a
+                                >
+                                <a
+                                    href="index.html#news"
+                                    class="nav-item nav-link"
+                                    >Actualités</a
+                                >
+                                <a
+                                    href="index.html#team"
+                                    class="nav-item nav-link"
+                                    >Équipe</a
+                                >
+                                <a
+                                    href="index.html#blog"
+                                    class="nav-item nav-link"
+                                    >Blog</a
+                                >
+                                <a
+                                    href="index.html#contact"
+                                    class="nav-item nav-link"
+                                    >Contact</a
+                                >
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5 mb-5">
+            <div
+                id="header-carousel"
+                class="carousel slide carousel-fade"
+                data-ride="carousel"
+            >
+                <ol class="carousel-indicators">
+                    <li
+                        data-target="#header-carousel"
+                        data-slide-to="0"
+                        class="active"
+                    ></li>
+                    <li data-target="#header-carousel" data-slide-to="1"></li>
+                    <li data-target="#header-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="min-height: 300px">
+                        <img
+                            class="position-relative w-100"
+                            src="img/carousel-1.jpg"
+                            style="min-height: 300px; object-fit: cover"
+                        />
+                        <div
+                            class="carousel-caption d-flex align-items-center justify-content-center"
+                        >
+                            <div
+                                class="p-5"
+                                style="width: 100%; max-width: 900px"
+                            >
+                                <h5 class="text-white text-uppercase mb-md-3">
+                                    Transformez votre vie grâce au développement
+                                    personnel
+                                </h5>
+                                <h1 class="display-3 text-white mb-md-4">
+                                    Apprenez à mieux vous connaître et à évoluer
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="min-height: 300px">
+                        <img
+                            class="position-relative w-100"
+                            src="img/carousel-2.jpg"
+                            style="min-height: 300px; object-fit: cover"
+                        />
+                        <div
+                            class="carousel-caption d-flex align-items-center justify-content-center"
+                        >
+                            <div
+                                class="p-5"
+                                style="width: 100%; max-width: 900px"
+                            >
+                                <h5 class="text-white text-uppercase mb-md-3">
+                                    Approche pratique pour votre épanouissement
+                                    personnel
+                                </h5>
+                                <h1 class="display-3 text-white mb-md-4">
+                                    Plateforme moderne dédiée à la croissance
+                                    personnelle
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="min-height: 300px">
+                        <img
+                            class="position-relative w-100"
+                            src="img/carousel-3.jpg"
+                            style="min-height: 300px; object-fit: cover"
+                        />
+                        <div
+                            class="carousel-caption d-flex align-items-center justify-content-center"
+                        >
+                            <div
+                                class="p-5"
+                                style="width: 100%; max-width: 900px"
+                            >
+                                <h5 class="text-white text-uppercase mb-md-3">
+                                    Développez vos compétences pour réussir au
+                                    quotidien
+                                </h5>
+                                <h1 class="display-3 text-white mb-md-4">
+                                    Devenez maître de votre croissance
+                                    personnelle
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div id="about" class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <img
+                            class="img-fluid rounded mb-4 mb-lg-0"
+                            src="img/about.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="text-left mb-4">
+                            <h5
+                                class="text-primary text-uppercase mb-3"
+                                style="letter-spacing: 5px"
+                            >
+                                À propos de nous
+                            </h5>
+                            <h1>
+                                Votre plateforme pour le développement personnel
+                            </h1>
+                        </div>
+                        <p>
+                            AlchimieIntime est une plateforme dédiée à votre
+                            épanouissement personnel. Nous proposons des
+                            ressources, des conseils et des formations pour vous
+                            aider à mieux vous connaître, à gérer vos émotions
+                            et à atteindre vos objectifs de vie.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="row align-items-center"
+                    style="flex-direction: row-reverse; margin-top: 30px"
+                >
+                    <div class="col-lg-5">
+                        <img
+                            class="img-fluid rounded mb-4 mb-lg-0"
+                            src="img/about-1.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="text-left mb-4">
+                            <h5
+                                class="text-primary text-uppercase mb-3"
+                                style="letter-spacing: 5px"
+                            >
+                                Notre approche
+                            </h5>
+                            <h1>
+                                Apprentissage structuré – Du savoir à la mise en
+                                pratique
+                            </h1>
+                        </div>
+                        <p>
+                            Nous favorisons une pédagogie active et progressive.
+                            Que vous souhaitiez améliorer votre confiance, votre
+                            gestion du stress ou vos compétences relationnelles,
+                            AlchimieIntime vous guide avec des parcours élaborés
+                            par des experts français tels que Julien Moreau,
+                            Claire Dubois et Antoine Lefèvre.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Courses Start -->
+        <div id="news" class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h5
+                        class="text-primary text-uppercase mb-3"
+                        style="letter-spacing: 5px"
+                    >
+                        Actualités
+                    </h5>
+                    <h1>Derniers Articles sur le Développement Personnel</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="rounded overflow-hidden mb-2">
+                            <img
+                                class="img-fluid"
+                                src="img/course-2.jpg"
+                                alt=""
+                            />
+                            <div class="bg-secondary p-4">
+                                <div
+                                    class="d-flex justify-content-between mb-3"
+                                >
+                                    <small class="m-0">
+                                        <i
+                                            class="fa fa-users text-primary mr-2"
+                                        ></i>
+                                        3013 lectures
+                                    </small>
+                                    <small class="m-0">
+                                        <i
+                                            class="far fa-clock text-primary mr-2"
+                                        ></i>
+                                        24.01.2025
+                                    </small>
+                                </div>
+                                <a class="h5"
+                                    >Les tendances actuelles du développement
+                                    personnel</a
+                                >
+                                <div class="border-top mt-4 pt-4">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="m-0">
+                                            <i
+                                                class="fa fa-star text-primary mr-2"
+                                            ></i>
+                                            4.9 <small>(1250)</small>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="rounded overflow-hidden mb-2">
+                            <img
+                                class="img-fluid"
+                                src="img/course-3.jpg"
+                                alt=""
+                            />
+                            <div class="bg-secondary p-4">
+                                <div
+                                    class="d-flex justify-content-between mb-3"
+                                >
+                                    <small class="m-0">
+                                        <i
+                                            class="fa fa-users text-primary mr-2"
+                                        ></i>
+                                        201 lectures
+                                    </small>
+                                    <small class="m-0">
+                                        <i
+                                            class="far fa-clock text-primary mr-2"
+                                        ></i>
+                                        24.02.2024
+                                    </small>
+                                </div>
+                                <a class="h5"
+                                    >Outils et méthodes pour mieux gérer son
+                                    développement personnel</a
+                                >
+                                <div class="border-top mt-4 pt-4">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="m-0">
+                                            <i
+                                                class="fa fa-star text-primary mr-2"
+                                            ></i>
+                                            3.9 <small>(50)</small>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="rounded overflow-hidden mb-2">
+                            <img
+                                class="img-fluid"
+                                src="img/course-4.jpg"
+                                alt=""
+                            />
+                            <div class="bg-secondary p-4">
+                                <div
+                                    class="d-flex justify-content-between mb-3"
+                                >
+                                    <small class="m-0">
+                                        <i
+                                            class="fa fa-users text-primary mr-2"
+                                        ></i>
+                                        30131 lectures
+                                    </small>
+                                    <small class="m-0">
+                                        <i
+                                            class="far fa-clock text-primary mr-2"
+                                        ></i>
+                                        01.02.2025
+                                    </small>
+                                </div>
+                                <a class="h5"
+                                    >Parcours inspirants pour l’épanouissement
+                                    personnel</a
+                                >
+                                <div class="border-top mt-4 pt-4">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="m-0">
+                                            <i
+                                                class="fa fa-star text-primary mr-2"
+                                            ></i>
+                                            4.5 <small>(11250)</small>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="rounded overflow-hidden mb-2">
+                            <img
+                                class="img-fluid"
+                                src="img/course-5.jpg"
+                                alt=""
+                            />
+                            <div class="bg-secondary p-4">
+                                <div
+                                    class="d-flex justify-content-between mb-3"
+                                >
+                                    <small class="m-0">
+                                        <i
+                                            class="fa fa-users text-primary mr-2"
+                                        ></i>
+                                        13 lectures
+                                    </small>
+                                    <small class="m-0">
+                                        <i
+                                            class="far fa-clock text-primary mr-2"
+                                        ></i>
+                                        04.04.2024
+                                    </small>
+                                </div>
+                                <a class="h5"
+                                    >Analyse quotidienne du cheminement
+                                    personnel</a
+                                >
+                                <div class="border-top mt-4 pt-4">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="m-0">
+                                            <i
+                                                class="fa fa-star text-primary mr-2"
+                                            ></i>
+                                            5 <small>(1)</small>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="rounded overflow-hidden mb-2">
+                            <img
+                                class="img-fluid"
+                                src="img/course-6.jpg"
+                                alt=""
+                            />
+                            <div class="bg-secondary p-4">
+                                <div
+                                    class="d-flex justify-content-between mb-3"
+                                >
+                                    <small class="m-0">
+                                        <i
+                                            class="fa fa-users text-primary mr-2"
+                                        ></i>
+                                        117 lectures
+                                    </small>
+                                    <small class="m-0">
+                                        <i
+                                            class="far fa-clock text-primary mr-2"
+                                        ></i>
+                                        11.02.2024
+                                    </small>
+                                </div>
+                                <a class="h5"
+                                    >Conseils et réflexions sur le développement
+                                    personnel</a
+                                >
+                                <div class="border-top mt-4 pt-4">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="m-0">
+                                            <i
+                                                class="fa fa-star text-primary mr-2"
+                                            ></i>
+                                            4.1 <small>(23)</small>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="rounded overflow-hidden mb-2">
+                            <img
+                                class="img-fluid"
+                                src="img/course-1.jpg"
+                                alt=""
+                            />
+                            <div class="bg-secondary p-4">
+                                <div
+                                    class="d-flex justify-content-between mb-3"
+                                >
+                                    <small class="m-0">
+                                        <i
+                                            class="fa fa-users text-primary mr-2"
+                                        ></i>
+                                        1213 lectures
+                                    </small>
+                                    <small class="m-0">
+                                        <i
+                                            class="far fa-clock text-primary mr-2"
+                                        ></i>
+                                        21.01.2025
+                                    </small>
+                                </div>
+                                <a class="h5"
+                                    >Croissance personnelle : évoluer à l'ère
+                                    numérique</a
+                                >
+                                <div class="border-top mt-4 pt-4">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="m-0">
+                                            <i
+                                                class="fa fa-star text-primary mr-2"
+                                            ></i>
+                                            4.2 <small>(30)</small>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Courses End -->
+
+        <!-- Team Start -->
+        <div id="team" class="container-fluid py-5">
+            <div class="container pt-5 pb-3">
+                <div class="text-center mb-5">
+                    <h5
+                        class="text-primary text-uppercase mb-3"
+                        style="letter-spacing: 5px"
+                    >
+                        Notre Équipe
+                    </h5>
+                    <h1>Rencontrez nos experts en développement personnel</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 text-center team mb-4">
+                        <div class="team-item rounded overflow-hidden mb-2">
+                            <div class="team-img position-relative">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-secondary p-4">
+                                <h5>Julien Moreau</h5>
+                                <p class="m-0">
+                                    Coach en développement personnel
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center team mb-4">
+                        <div class="team-item rounded overflow-hidden mb-2">
+                            <div class="team-img position-relative">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-secondary p-4">
+                                <h5>Claire Dubois</h5>
+                                <p class="m-0">
+                                    Spécialiste en gestion du stress
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center team mb-4">
+                        <div class="team-item rounded overflow-hidden mb-2">
+                            <div class="team-img position-relative">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-secondary p-4">
+                                <h5>Antoine Lefèvre</h5>
+                                <p class="m-0">Expert en confiance en soi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center team mb-4">
+                        <div class="team-item rounded overflow-hidden mb-2">
+                            <div class="team-img position-relative">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-secondary p-4">
+                                <h5>Élodie Martin</h5>
+                                <p class="m-0">Formatrice en communication</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h5
+                        class="text-primary text-uppercase mb-3"
+                        style="letter-spacing: 5px"
+                    >
+                        Témoignages
+                    </h5>
+                    <h1>Ce que disent nos apprenants</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="owl-carousel testimonial-carousel">
+                            <div class="text-center">
+                                <i
+                                    class="fa fa-3x fa-quote-left text-primary mb-4"
+                                ></i>
+                                <h4 class="font-weight-normal mb-4">
+                                    La plateforme est parfaitement structurée et
+                                    offre une introduction claire au
+                                    développement personnel. J’apprécie
+                                    particulièrement les exemples pratiques et
+                                    les explications simples des concepts
+                                    complexes.
+                                </h4>
+                                <img
+                                    class="img-fluid mx-auto mb-3"
+                                    src="img/testimonial-1.jpg"
+                                    alt=""
+                                />
+                                <h5 class="m-0">Sophie Lambert</h5>
+                            </div>
+                            <div class="text-center">
+                                <i
+                                    class="fa fa-3x fa-quote-left text-primary mb-4"
+                                ></i>
+                                <h4 class="font-weight-normal mb-4">
+                                    J’utilise cette plateforme d’apprentissage
+                                    tous les jours pour approfondir mes
+                                    connaissances en développement personnel.
+                                    Les contenus sont actuels, interactifs et
+                                    parfaitement adaptés à tous les niveaux.
+                                </h4>
+                                <img
+                                    class="img-fluid mx-auto mb-3"
+                                    src="img/testimonial-2.jpg"
+                                    alt=""
+                                />
+                                <h5 class="m-0">Émilie Dupont</h5>
+                            </div>
+                            <div class="text-center">
+                                <i
+                                    class="fa fa-3x fa-quote-left text-primary mb-4"
+                                ></i>
+                                <h4 class="font-weight-normal mb-4">
+                                    Excellente plateforme pour tous ceux qui
+                                    souhaitent progresser dans leur
+                                    développement personnel. Les cours sont
+                                    clairs, bien structurés et créés par de
+                                    vrais experts.
+                                </h4>
+                                <img
+                                    class="img-fluid mx-auto mb-3"
+                                    src="img/testimonial-3.jpg"
+                                    alt=""
+                                />
+                                <h5 class="m-0">Lucas Morel</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Blog Start -->
+        <div id="blog" class="container-fluid py-5">
+            <div class="container pt-5 pb-3">
+                <div class="text-center mb-5">
+                    <h5
+                        class="text-primary text-uppercase mb-3"
+                        style="letter-spacing: 5px"
+                    >
+                        Notre Blog
+                    </h5>
+                    <h1>Actualités du développement personnel</h1>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-lg-4 mb-4">
+                        <div
+                            class="blog-item position-relative overflow-hidden rounded mb-2"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="img/blog-1.jpg"
+                                alt=""
+                            />
+                            <a class="blog-overlay text-decoration-none">
+                                <h5 class="text-white mb-3">
+                                    Stratégies pour cultiver la confiance en soi
+                                </h5>
+                                <p class="text-primary m-0">01 Janvier 2025</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div
+                            class="blog-item position-relative overflow-hidden rounded mb-2"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="img/blog-2.jpg"
+                                alt=""
+                            />
+                            <a
+                                class="blog-overlay text-decoration-none"
+                                href=""
+                            >
+                                <h5 class="text-white mb-3">
+                                    Nouvelles méthodes pour mieux gérer son
+                                    stress
+                                </h5>
+                                <p class="text-primary m-0">01 Juillet 2025</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div
+                            class="blog-item position-relative overflow-hidden rounded mb-2"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="img/blog-3.jpg"
+                                alt=""
+                            />
+                            <a
+                                class="blog-overlay text-decoration-none"
+                                href=""
+                            >
+                                <h5 class="text-white mb-3">
+                                    Parcours réussis vers l’épanouissement
+                                    personnel
+                                </h5>
+                                <p class="text-primary m-0">01 Février 2025</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Registration Start -->
+        <div
+            id="contact"
+            style="margin-bottom: 0px"
+            class="container-fluid bg-registration py-5"
+            style="margin: 90px 0"
+        >
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="card border-0">
+                            <div class="card-header bg-light text-center p-4">
+                                <p>Inscrivez-vous et</p>
+                                <h1 class="m-0">
+                                    Recevez gratuitement nos mises à jour par
+                                    email !
+                                </h1>
+                            </div>
+                            <div
+                                class="card-body rounded-bottom bg-primary p-5"
+                            >
+                                <form action="thanks.html" method="get">
+                                    <div class="form-group">
+                                        <input
+                                            type="text"
+                                            class="form-control border-0 p-4"
+                                            placeholder="Votre nom"
+                                            required="required"
+                                        />
+                                    </div>
+                                    <div class="form-group">
+                                        <input
+                                            id="email"
+                                            type="email"
+                                            class="form-control border-0 p-4"
+                                            placeholder="Votre adresse e-mail"
+                                            required="required"
+                                        />
+                                    </div>
+                                    <div class="form-group">
+                                        <input
+                                            id="text"
+                                            type="text"
+                                            class="form-control border-0 p-4"
+                                            placeholder="Votre domaine de développement personnel"
+                                            required="required"
+                                        />
+                                    </div>
+                                    <div>
+                                        <button
+                                            id="submit"
+                                            class="btn btn-dark btn-block border-0 py-3"
+                                            type="submit"
+                                        >
+                                            ENVOYER
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Registration End -->
+
+        <!-- Footer Start -->
+        <div
+            style="position: absolute"
+            class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5"
+            style="margin-top: 0px"
+        >
+            <div class="row pt-5">
+                <div class="col-lg-7 col-md-12">
+                    <div class="row">
+                        <div class="col-md-6 mb-5">
+                            <h5
+                                class="text-primary text-uppercase mb-4"
+                                style="letter-spacing: 5px"
+                            >
+                                Contact
+                            </h5>
+                            <p>
+                                <i class="fa fa-envelope mr-2"></i
+                                >fin_bildung@gmail.com
+                            </p>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <h5
+                                class="text-primary text-uppercase mb-4"
+                                style="letter-spacing: 5px"
+                            >
+                                Navigation
+                            </h5>
+                            <div
+                                class="d-flex flex-column justify-content-start"
+                            >
+                                <a class="text-white mb-2" href="index.html"
+                                    ><i class="fa fa-angle-right mr-2"></i
+                                    >Accueil</a
+                                >
+                                <a class="text-white mb-2" href="#about"
+                                    ><i class="fa fa-angle-right mr-2"></i>À
+                                    propos</a
+                                >
+                                <a class="text-white mb-2" href="#news"
+                                    ><i class="fa fa-angle-right mr-2"></i
+                                    >Nouveautés</a
+                                >
+                                <a class="text-white mb-2" href="#team"
+                                    ><i class="fa fa-angle-right mr-2"></i
+                                    >Équipe</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 mb-5">
+                    <h5
+                        class="text-primary text-uppercase mb-4"
+                        style="letter-spacing: 5px"
+                    >
+                        Liens utiles
+                    </h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-white mb-2" href="privacy-policy.html"
+                            ><i class="fa fa-angle-right mr-2"></i
+                            >Confidentialité</a
+                        >
+                        <a class="text-white mb-2" href="cookie-policy.html"
+                            ><i class="fa fa-angle-right mr-2"></i>Cookies</a
+                        >
+                        <a class="text-white mb-2" href="terms-of-use.html"
+                            ><i class="fa fa-angle-right mr-2"></i>Conditions
+                            d'utilisation</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <i class="bx bx-cookie"></i>
+            <h2 style="text-align: center">Consentement aux cookies</h2>
+
+            <div class="data">
+                <p>
+                    Ce site dédié au développement personnel utilise des cookies
+                    pour améliorer votre expérience d’apprentissage et vous
+                    offrir du contenu personnalisé.
+                    <a href="cookie-policy.html">En savoir plus...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accepter</button>
+                <button class="cookie-button" id="declineBtn">Refuser</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="fa fa-angle-double-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
